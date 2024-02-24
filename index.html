@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>jocken</title>
+</head>
+<body>
+    <div class="conteiner">
+        <h1>Joken</h1>
+        
+        <div class="btns">
+            <button id="pedra" onclick="playHuman('pedra')">&#x1F44A;</button>
+            <button id="papel" onclick="playHuman('papel')">&#9994;</button>
+            <button id="tesoura"onclick="playHuman('tesoura')">&#129310;</button>
+        </div>
+<p class="result"></p>
+
+        <p class="pontos"> Sua pontuação: <span id="human-pontos">0</span></p>
+        <p class="pontoss"> Pontuação do Martins: <span id="machine-pontos">0</span></p>
+    </div>
+    
+</body>
+<script src="./script.js"></script>
+</html>
