@@ -42,6 +42,6 @@ const playTheGame = (human, machine) => {
     } else {
         machinePontosNumeros++
         machinepontos.innerHTML = machinePontosNumeros
-        result.innerHTML = "Ai zé da manga,  Você perdeu para o Martins! kkkkkk"
+        result.innerHTML = " Você perdeu para o Martins! "
     }
 }
